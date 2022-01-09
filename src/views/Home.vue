@@ -63,7 +63,8 @@
 </template>
 
 <script>
-const API_URL = 'https://full-stack-message-board.herokuapp.com/messages';
+// const API_URL = 'https://full-stack-message-board.herokuapp.com/messages';
+const API_URL = 'http://localhost:1234/messages'; // the server URL
 
 export default {
   name: 'home',
